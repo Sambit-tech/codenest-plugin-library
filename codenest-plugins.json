@@ -1,0 +1,72 @@
+{
+  "schema": "codenest-plugin-library\/v1",
+  "libraryName": "Sambit-tech's CodeNest Library",
+  "publisher": "@Sambit-tech",
+  "updatedAt": 1795166230554,
+  "plugins": [
+    {
+      "id": "llama-cpp-engine",
+      "name": "llama.cpp Local LLM Engine (C++)",
+      "tagline": "Native C\/C++ LLM inference server (OpenAI API on 127.0.0.1:8081)",
+      "description": "Installs or compiles official ggml-org\/llama.cpp (`llama-server` & `llama-cli`) inside Termux userspace with zero base-APK bloat. Runs quantized GGUF models locally offline for CodeNest Chat & Agent.",
+      "publisher": "@Sambit-tech",
+      "version": "llama.cpp",
+      "sizeLabel": "~18 MB",
+      "category": "LOCAL_LLM",
+      "installKind": "TERMUX_LLAMA_CPP",
+      "targetSpec": "llama-server",
+      "tags": [
+        "cpp",
+        "c++",
+        "llama",
+        "llama.cpp",
+        "llm",
+        "gguf",
+        "ai",
+        "local"
+      ]
+    },
+    {
+      "id": "gguf-qwen25-coder-1.5b",
+      "name": "Qwen2.5-Coder 1.5B (GGUF Q4_K_M)",
+      "tagline": "Best offline coding & agent model for 4–8 GB RAM phones",
+      "description": "Downloads official quantized GGUF model (`qwen2.5-coder-1.5b-instruct-q4_k_m.gguf`) into ~\/.codenest\/models\/ inside Termux for offline inference via llama.cpp on 127.0.0.1:8081.",
+      "publisher": "@Sambit-tech",
+      "version": "1.5B • Coding",
+      "sizeLabel": "~1.12 GB",
+      "category": "LOCAL_LLM",
+      "installKind": "TERMUX_GGUF_MODEL",
+      "targetSpec": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf|https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-1.5B-Instruct-GGUF\/resolve\/main\/qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "tags": [
+        "llm",
+        "gguf",
+        "llama.cpp",
+        "cpp",
+        "local",
+        "ai",
+        "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf"
+      ]
+    },
+    {
+      "id": "gguf-qwen25-0.5b",
+      "name": "Qwen2.5 0.5B Instruct (GGUF Q4_K_M)",
+      "tagline": "Lightweight multilingual local chat & quick explanations",
+      "description": "Downloads official quantized GGUF model (`qwen2.5-0.5b-instruct-q4_k_m.gguf`) into ~\/.codenest\/models\/ inside Termux for offline inference via llama.cpp on 127.0.0.1:8081.",
+      "publisher": "@Sambit-tech",
+      "version": "0.5B • Fast",
+      "sizeLabel": "~490 MB",
+      "category": "LOCAL_LLM",
+      "installKind": "TERMUX_GGUF_MODEL",
+      "targetSpec": "qwen2.5-0.5b-instruct-q4_k_m.gguf|https:\/\/huggingface.co\/Qwen\/Qwen2.5-0.5B-Instruct-GGUF\/resolve\/main\/qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "tags": [
+        "llm",
+        "gguf",
+        "llama.cpp",
+        "cpp",
+        "local",
+        "ai",
+        "qwen2.5-0.5b-instruct-q4_k_m.gguf"
+      ]
+    }
+  ]
+}

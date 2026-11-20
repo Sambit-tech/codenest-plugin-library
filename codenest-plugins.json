@@ -2,7 +2,7 @@
   "schema": "codenest-plugin-library\/v1",
   "libraryName": "Sambit-tech's CodeNest Library",
   "publisher": "@Sambit-tech",
-  "updatedAt": 1795166230554,
+  "updatedAt": 1795166252599,
   "plugins": [
     {
       "id": "llama-cpp-engine",
